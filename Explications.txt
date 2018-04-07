@@ -1,0 +1,18 @@
+OMC Decoder-Encoder
+
+Ce fichier est un script batch permettant de faciliter la compilation et la décompilation
+des fichiers CSCFeature et CSCFeature_network présente sur les mobiles récents.
+
+Ce fichier a entièrement été ecrit par Yoanf26@PhonAndroid
+Le fichier omc-decoder a été réalisé par fei-ke@XDA
+
+Merci à lui.
+
+Utilisation :
+
+1. Mettez votre/vos fichier(s) que vous souhaitez utiliser avec OMC Decoder-Encoder (cscfeature.xml et/ou cscfeature_network.xml) dans le dossier _In\
+2. Lancer OMC Decoder-Encoder
+3. Suivez les instructions affichées à l'écran.
+4. Récupérer votre/vos fichiers travaillé(s) dans le dossier _Out\ ainsi que vos fichiers originaux qui reste dans le dossier _In\.
+
+Enjoy

@@ -1,0 +1,18 @@
+OMC Decoder-Encoder
+
+This program is a batch script witch can code and decode
+OMC files as CSCFeature and CSCFeature_network from recent devices
+
+This program is developed by Yoanf26@PhonAndroid
+Omc-decoder.jar credits goes to ispar fei-ke@XDA
+
+Thanks to him.
+
+Usage :
+
+1. Put your encoded or decoded OMC files as (cscfeature.xml et/ou cscfeature_network.xml) into OMC Decoder/_In Folder
+2. Run OMC Decoder-Encoder
+3. Follow instructions.
+4. Out files will be into _Out Folder and Originals files into _In after process finish
+
+Enjoy

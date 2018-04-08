@@ -10,9 +10,32 @@ Merci à lui.
 
 Utilisation :
 
-1. Mettez votre/vos fichier(s) que vous souhaitez utiliser avec OMC Decoder-Encoder (cscfeature.xml et/ou cscfeature_network.xml) dans le dossier _In\
-2. Lancer OMC Decoder-Encoder
-3. Suivez les instructions affichées à l'écran.
-4. Récupérer votre/vos fichiers travaillé(s) dans le dossier _Out\ ainsi que vos fichiers originaux qui reste dans le dossier _In\.
+1. Une fois le fichier téléchargé, vous avez votre fichier disponible dans votre dossier de téléchargement.
+2. Vous pouvez l'extraire là où vous le souhaitez, (il s'adapte à son environnement pour effectuer son travail), et vous vous retrouvez comme sur l'image ci-dessous.
+3. Lancez le afin qu'il prépare son espace de travail et qu'il vous demande la langue que vous souhaitez.
+4. Tapez le chiffre et validez avec la touche Entrée. Vous arrivez avec ici.
+5. Comme vous pouvez le voir, il y a eu du changement dans le dossier OMC_Decoder_Encoder.
+6. Et voilà, OMC_Decoder_Encoder est prêt à l'emploi.
 
+Vous avez juste le cscfeature.xml et le cscfeature_network.xml d'un seul csc à décoder ou à encoder :
+
+1. Mettez votre/vos fichier(s) dans le dossier _In.
+2. Dans OMC_Decoder_Encoder choisissez 1 pour décoder ou 2 pour encoder puis validez.
+3. S'il n'y a eu aucun problème, votre/vos fichier(s) se retrouve(nt) dans le dossier _Out.
+4. Déplacez vos fichiers avant de continuer.
+5. C'est fini.
+
+Vous avez plusieurs OMC à décoder ou encoder :
+
+1. Mettez les dossiers XXX (ou XXX est le nom de l'OMC comme XEF, BTU, ITV...) dans le dossier _InOMC.
+Attention : Il peut avoir des OMC dans le dossier single, pensez à les mettre dans le dossier _InOMC.
+2. Veuillez vérifier que d'autres dossiers ne soient pas présents car cela peut engendrer des erreurs.
+3. Dans OMC_Decoder_Encoder choisissez 3 pour décoder par lot ou 4 pour encoder par lot puis validez.
+4. Patientez pendant le travail. La durée est variable en fonction du nombre de OMC et la puissance de travail de votre PC.
+5. Une fois fini, vous retrouvez vos fichiers dans le dossier _OutOMC.
+6. Déplacez vos fichiers avant de continuer.
+Attention : Les dossiers sont incomplet.
+Je vous conseille de déplacer l'intégralité du dossier _OutOMC dans le _InOMC, puis de déplacer l'intégralité du dossier _InOMC là où vous le souhaitez.
+De cette manière vos dossiers OMC seront complet.
+7. C'est fini.
 Enjoy

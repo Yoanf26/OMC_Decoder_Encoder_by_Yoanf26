@@ -10,9 +10,29 @@ Thanks to him.
 
 Usage :
 
-1. Put your encoded or decoded OMC files as (cscfeature.xml et/ou cscfeature_network.xml) into OMC Decoder/_In Folder
-2. Run OMC Decoder-Encoder
-3. Follow instructions.
-4. Out files will be into _Out Folder and Originals files into _In after process finish
+1. Extract file OMC_Decoder-Encoder_By_Yoanf26.zip where you want.
+2. Launch OMC_Decoder_Encoder.exe so that he prepares his workspace and asks you for the language you want.
+3. Enter the number and confirm with the Enter key
 
+You just have the cscfeature.xml and the cscfeature_network.xml of a single csc to decode or encode:
+
+1. Put your file(s) in the _In folder.
+2. In OMC_Decoder_Encoder choose 1 to decode or 2 to encode and validate.
+3. If there were no problems, your file (s) will be found in the _Out folder.
+4. Move your file(s) before to continue.
+5. It's finish.
+
+You have several OMC to decode or encode:
+
+1. Put the XXX folders XXX (where XXX is the OMC name like XEF, BTU, ITV ...) in the _InOMC folder.
+Warning: It can have OMC in the single folder, thinks to put them in the _InOMC folder.
+2. Please check that other folders than XXX are not present as this may cause errors.
+3. In OMC_Decoder_Encoder choose 3 to decode multiple OMC or 4 to encode multiple OMC and validate.
+4. Wait during the work. The duration is variable depending on the number of OMC and the working power of your computer.
+5. Once finished, you will find your files in the _OutOMC folder.
+6. Move your file(s) before to continue.
+Warning: The Folders are incomplete.
+I advise you to move the entire _OutOMC folder in the _InOMC, then move the entire _InOMC folder where you want it.
+In this way your OMC folders will be complete.
+7. It's finish.
 Enjoy

@@ -1,6 +1,6 @@
 OMC Decoder-Encoder
 
-Ce fichier est un script batch permettant de faciliter la compilation et la décompilation
+Ce script permettant de faciliter la compilation et la décompilation
 des fichiers CSCFeature et CSCFeature_network présente sur les mobiles récents.
 
 Ce fichier a entièrement été ecrit par Yoanf26@PhonAndroid
@@ -10,32 +10,54 @@ Merci à lui.
 
 Utilisation :
 
-1. Une fois le fichier téléchargé, vous avez votre fichier disponible dans votre dossier de téléchargement.
-2. Vous pouvez l'extraire là où vous le souhaitez, (il s'adapte à son environnement pour effectuer son travail), et vous vous retrouvez comme sur l'image ci-dessous.
-3. Lancez le afin qu'il prépare son espace de travail et qu'il vous demande la langue que vous souhaitez.
-4. Tapez le chiffre et validez avec la touche Entrée. Vous arrivez avec ici.
-5. Comme vous pouvez le voir, il y a eu du changement dans le dossier OMC_Decoder_Encoder.
-6. Et voilà, OMC_Decoder_Encoder est prêt à l'emploi.
+1. Si vous n'avez pas Python3 d'installé (Sinon, passez au point 2 :
 
-Vous avez juste le cscfeature.xml et le cscfeature_network.xml d'un seul csc à décoder ou à encoder :
+Windows :
 
-1. Mettez votre/vos fichier(s) dans le dossier _In.
-2. Dans OMC_Decoder_Encoder choisissez 1 pour décoder ou 2 pour encoder puis validez.
-3. S'il n'y a eu aucun problème, votre/vos fichier(s) se retrouve(nt) dans le dossier _Out.
-4. Déplacez vos fichiers avant de continuer.
-5. C'est fini.
+	Pour Windows 32 Bits, https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe ou pour Windows 64 Bits, https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
 
-Vous avez plusieurs OMC à décoder ou encoder :
+	Lancez l'installateur Python 3 et suivez les instructions affichés à l'écran.
 
-1. Mettez les dossiers XXX (ou XXX est le nom de l'OMC comme XEF, BTU, ITV...) dans le dossier _InOMC.
-Attention : Il peut avoir des OMC dans le dossier single, pensez à les mettre dans le dossier _InOMC.
-2. Veuillez vérifier que d'autres dossiers ne soient pas présents car cela peut engendrer des erreurs.
-3. Dans OMC_Decoder_Encoder choisissez 3 pour décoder par lot ou 4 pour encoder par lot puis validez.
-4. Patientez pendant le travail. La durée est variable en fonction du nombre de OMC et la puissance de travail de votre PC.
-5. Une fois fini, vous retrouvez vos fichiers dans le dossier _OutOMC.
-6. Déplacez vos fichiers avant de continuer.
-Attention : Les dossiers sont incomplet.
-Je vous conseille de déplacer l'intégralité du dossier _OutOMC dans le _InOMC, puis de déplacer l'intégralité du dossier _InOMC là où vous le souhaitez.
-De cette manière vos dossiers OMC seront complet.
-7. C'est fini.
+Linux :
+
+	Lancez le terminal.
+
+	Tapez la commande sudo apt-get install python3
+
+2. Extraire le fichier OMCDecoderEncoder.zip à la racine de votre disque dur sous Windows ou dans votre dossier "Home" sous Linux.
+
+3. Lancez le en double cliquant sur OMC_Decoder-Encoder.exe sous Windows ou en double cliquant sur OMC_Decoder_Encoder.py puis Lancer dans un terminal sous Linux et vous arrivez sur l'écran suivant.
+
+S'il se lance pas sous Linux, vous devez ouvrir le terminal depuis le dossier OMCDecoderEncoder et le lancer soit avec la commande ./OMC_Decoder-Encoder.py ou python3 OMC_Decoder-Encoder.py
+
+5. Et voilà, OMC_Decoder_Encoder est prêt à l'emploi. Vous pouvez passer à la partie explications.
+
+
+Explication :
+
+1. Vous avez juste le cscfeature.xml et le cscfeature_network.xml d'un seul csc à décoder ou à encoder :
+	
+	Mettez votre/vos fichier(s) dans le dossier "_In".
+	
+	Dans OMC_Decoder_Encoder choisissez 1 pour décoder ou 2 pour encoder puis validez.
+	
+	S'il n'y a eu aucun problème, votre/vos fichier(s) se retrouve(nt) dans le dossier "_Out".
+
+	C'est fini.
+
+2. Vous avez plusieurs OMC à décoder ou encoder :
+
+	Mettez les dossiers XXX (ou XXX est le nom de l'OMC comme XEF, BTU, ITV...) dans le dossier "_InOMC".
+Attention : Il peut avoir des OMC dans le dossier single, pensez à les mettre dans le dossier "_InOMC".
+
+	Dans OMC_Decoder_Encoder choisissez 3 pour décoder par lot ou 4 pour encoder par lot puis validez.
+
+	Patientez pendant le travail. La durée est variable en fonction du nombre de OMC et la puissance de travail de votre PC.
+
+	Une fois fini, vous retrouvez vos différents fichiers csc_feature.xml et csc_featurenetwork.xml dans le dossier "_OutOMC".
+
+	Regroupez vos dossiers dans "_OutOMC" dans "_InOMC" afin d'avoir vos dossiers complet.
+
+	C'est fini.
+
 Enjoy

@@ -10,29 +10,62 @@ Thanks to him.
 
 Usage :
 
-1. Extract file OMC_Decoder-Encoder_By_Yoanf26.zip where you want.
-2. Launch OMC_Decoder_Encoder.exe so that he prepares his workspace and asks you for the language you want.
-3. Enter the number and confirm with the Enter key
+1. If you haven't install Python3 (If not, pass te 2nd point :
+
+Windows :
+
+	For Windows 32 Bits, https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe or for Windows 64 Bits, https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
+
+	Launch the Python3 Installator and follow the instructions on the screen.
+
+Linux :
+
+	Launch the terminal.
+
+	Type a command sudo apt-get install python3
+
+2. Extract the OMCDecoderEncoder.zip file on root of Hard disk on Windows or in the "Home" folder on Linux.
+
+3. Launch OMC_Decoder-Encoder.exe on Windows or double click on OMC_Decoder_Encoder.py then Launch on terminal on Linux.
+
+If don't Launch on Linux, you must open the terminal and go to the OMCDecoderEncoder folder et launch this with the command ./OMC_Decoder-Encoder.py or python3 OMC_Decoder-Encoder.py
+
+5. Let's go.
+
+
+Explication :
+
 
 You just have the cscfeature.xml and the cscfeature_network.xml of a single csc to decode or encode:
 
+
 1. Put your file(s) in the _In folder.
+
 2. In OMC_Decoder_Encoder choose 1 to decode or 2 to encode and validate.
+
 3. If there were no problems, your file (s) will be found in the _Out folder.
+
 4. Move your file(s) before to continue.
+
 5. It's finish.
+
 
 You have several OMC to decode or encode:
 
+
 1. Put the XXX folders XXX (where XXX is the OMC name like XEF, BTU, ITV ...) in the _InOMC folder.
+
 Warning: It can have OMC in the single folder, thinks to put them in the _InOMC folder.
-2. Please check that other folders than XXX are not present as this may cause errors.
-3. In OMC_Decoder_Encoder choose 3 to decode multiple OMC or 4 to encode multiple OMC and validate.
-4. Wait during the work. The duration is variable depending on the number of OMC and the working power of your computer.
-5. Once finished, you will find your files in the _OutOMC folder.
-6. Move your file(s) before to continue.
-Warning: The Folders are incomplete.
+
+2. In OMC_Decoder_Encoder choose 3 to decode multiple OMC or 4 to encode multiple OMC and validate.
+
+3. Wait during the work. The duration is variable depending on the number of OMC and the working power of your computer.
+
+4. Once finished, you will find your files in the _OutOMC folder.
+
 I advise you to move the entire _OutOMC folder in the _InOMC, then move the entire _InOMC folder where you want it.
 In this way your OMC folders will be complete.
+
 7. It's finish.
+
 Enjoy
